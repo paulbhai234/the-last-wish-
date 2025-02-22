@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Birthday Rajeswari</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
+</head>
+<body>
+  <!-- Welcome Section -->
+  <div class="welcome-section">
+    <h1 id="greeting">Happy Birthday Rajeswari! 🎉</h1>
+    <p id="birthday-message">Wishing you a wonderful day filled with joy and love. 🎂🎈</p>
+  </div>
+
+  <!-- Balloons Animation -->
+  <div id="particles-js"></div>
+
+  <!-- Cake Section -->
+  <div class="cake-section">
+    <button id="cake-button">Click here to cut the cake 🍰</button>
+  </div>
+
+  <!-- Appreciation Note -->
+  <div class="appreciation-section">
+    <button id="show-message-button">Read the Message ❤️</button>
+    <p id="appreciation-message" class="hidden">Thank you for being there for me, I am not much, I am not even a good friend to be honest, but thanks for accepting me, be safe and happy, and enjoy this life because this might be the last message I am sending you. Thank you for everything, I love you, I really really love you.</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
